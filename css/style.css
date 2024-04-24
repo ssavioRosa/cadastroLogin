@@ -1,0 +1,378 @@
+
+*{
+    background-color: rgb(25, 25, 99);
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Cadastro */
+.conteinerCadastro{
+    height: 750px;
+    width: 600px;
+    border: 6px solid aliceblue;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: block;
+
+}
+
+.topoCadastro{
+    margin-top: 40px;
+    color: aliceblue;
+}
+.topoCadastro i{
+    font-size: 100px;
+}
+.formularioCadastro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.entradaFormularioCadastro{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.entradaFormularioCadastro::placeholder{
+    text-align: center;
+    color: rgb(25, 25, 99);
+    font-size: 18px;
+
+
+}
+.dataFormularioCadastro{
+    background-color: aliceblue;
+    color: rgb(25, 25, 99);
+    font: 18px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btnoCadastro{
+    margin-top: 30px;
+    background-color: aliceblue;
+    color: rgb(25, 25, 99);
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+.btnoCadastro:hover{
+    background-color: rgb(25, 25, 99) ;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    box-shadow: 0 0 0 3px;
+}
+/* Login */
+.conteinerLogin{
+
+    height: 530px;
+    width: 600px;
+    border: 6px solid aliceblue;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: none;
+}
+
+
+.topoLogin{
+    margin-top: 40px;
+    color: aliceblue;
+}
+.topoLogin i{
+    font-size: 100px;
+}
+.formularioLogin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.entradaFormularioLogin{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.entradaFormularioLogin::placeholder{
+    text-align: center;
+    color: rgb(25, 25, 99);
+    font-size: 18px;
+
+
+}
+
+.btnLogin{
+    margin-top: 30px;
+    background-color: aliceblue;
+    color: rgb(25, 25, 99);
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+.btnLogin:hover{
+    background-color: rgb(25, 25, 99) ;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    box-shadow: 0 0 0 3px;
+}
+.btnVoltar{
+
+    margin-top: 30px;
+    background-color: aliceblue;
+    color: rgb(25, 25, 99);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.btnVoltar:hover{
+    background-color: rgb(25, 25, 99) ;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    box-shadow: 0 0 0 3px;
+}
+
+.btnVoltarCadastro{
+    margin-top: 30px;
+    background-color: aliceblue;
+    color: rgb(25, 25, 99);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+    display: block;
+}
+.btnVoltarCadastro:hover{
+    background-color: rgb(25, 25, 99) ;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    box-shadow: 0 0 0 3px;
+}
+
+@media screen and (max-width: 612px){
+
+    .conteinerCadastro{
+        height: 600px;
+        width: 500px;
+        border: 6px solid aliceblue;
+        border-radius: 25px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+    
+    }
+    
+    .topoCadastro{
+        margin-top: 30px;
+        color: aliceblue;
+    }
+    .topoCadastro i{
+        font-size: 60px;
+    }
+    .formularioCadastro{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .entradaFormularioCadastro{
+        background-color: aliceblue;
+        border: none;
+        border-radius: 15px;
+        width: 300px;
+        height: 35px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+    
+    .entradaFormularioCadastro::placeholder{
+        text-align: center;
+        color: rgb(25, 25, 99);
+        font-size: 18px;
+    
+    
+    }
+    .dataFormularioCadastro{
+        background-color: aliceblue;
+        color: rgb(25, 25, 99);
+        font: 18px;
+        width: 150px;
+        border: none;
+        border-radius: 15px;
+        margin-top: 20px;
+        height: 30px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .btnoCadastro{
+        margin-top: 30px;
+        background-color: aliceblue;
+        color: rgb(25, 25, 99);
+        width: 300px;
+        height: 40px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: .3s;
+    }
+    .btnoCadastro:hover{
+        background-color: rgb(25, 25, 99) ;
+        color: aliceblue;
+        border: 3px solid aliceblue;
+        box-shadow: 0 0 0 3px;
+    }
+    /* Login */
+    .conteinerLogin{
+    
+        height: 430px;
+        width: 600px;
+        border: 6px solid aliceblue;
+        border-radius: 25px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: none;
+    }
+    
+    
+    .topoLogin{
+        margin-top: 30px;
+        color: aliceblue;
+    }
+    .topoLogin i{
+        font-size: 60px;
+    }
+    .formularioLogin{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .entradaFormularioLogin{
+        background-color: aliceblue;
+        border: none;
+        border-radius: 15px;
+        width: 350px;
+        height: 35px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+    
+    .entradaFormularioLogin::placeholder{
+        text-align: center;
+        color: rgb(25, 25, 99);
+        font-size: 18px;
+    
+    
+    }
+    
+    .btnLogin{
+        margin-top: 30px;
+        background-color: aliceblue;
+        color: rgb(25, 25, 99);
+        width: 300px;
+        height: 40px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: .3s;
+    }
+    .btnLogin:hover{
+        background-color: rgb(25, 25, 99) ;
+        color: aliceblue;
+        border: 3px solid aliceblue;
+        box-shadow: 0 0 0 3px;
+    }
+    .btnVoltar{
+    
+        margin-top: 30px;
+        background-color: aliceblue;
+        color: rgb(25, 25, 99);
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: .3s;
+    }
+    
+    .btnVoltar:hover{
+        background-color: rgb(25, 25, 99) ;
+        color: aliceblue;
+        border: 3px solid aliceblue;
+        box-shadow: 0 0 0 3px;
+    }
+    
+    .btnVoltarCadastro{
+        margin-top: 30px;
+        background-color: aliceblue;
+        color: rgb(25, 25, 99);
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: .3s;
+        display: block;
+    }
+    .btnVoltarCadastro:hover{
+        background-color: rgb(25, 25, 99) ;
+        color: aliceblue;
+        border: 3px solid aliceblue;
+        box-shadow: 0 0 0 3px;
+
+
+
+}
+}
